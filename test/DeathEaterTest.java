@@ -25,12 +25,12 @@ public class DeathEaterTest {
         double re = 10;
         double im = 11;
         DeathEater de = new DeathEater(new Complex(re, im));
-        return de.getCombatScore() == Math.min(Math.sqrt(re * re + im * im), 999);
+        return de.getCombatScore() == Math.sqrt(re * re + im * im);
     }
 
     public static boolean test03() {
         DeathEater de = new DeathEater(new Complex(0, 1));
-        return de.getCombatScore() == Math.min(Math.sqrt(1), 999);
+        return de.getCombatScore() == Math.sqrt(1);
     }
 
     public static boolean test04() {
@@ -42,21 +42,21 @@ public class DeathEaterTest {
         double re = 1000;
         double im = 4000;
         DeathEater de = new DeathEater(new Complex(re, im));
-        return de.getCombatScore() == Math.min(Math.sqrt(re * re + im * im), 999);
+        return de.getCombatScore() == Math.sqrt(re * re + im * im);
     }
 
     public static boolean test06() {
         double re = 0.0;
         double im = 0.0;
         DeathEater de = new DeathEater(new Complex(re, im));
-        return de.getCombatScore() == Math.min(Math.sqrt(re * re + im * im), 999);
+        return de.getCombatScore() == Math.sqrt(re * re + im * im);
     }
 
     public static boolean test07() {
         double re = -1;
         double im = 2;
         DeathEater de = new DeathEater(new Complex(re, im));
-        return de.getCombatScore() == Math.min(Math.sqrt(re * re + im * im), 999);
+        return de.getCombatScore() == Math.sqrt(re * re + im * im);
     }
 
     public static boolean test08() {
