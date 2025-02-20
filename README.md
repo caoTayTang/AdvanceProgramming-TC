@@ -15,6 +15,7 @@ If you are using Intellij, you can add the given Abstract, Interface class as de
 ### Copy `util/Utility.java`
 1. Copy your `util/Utility.jav` into `util` folder
 2. Note that there's maybe some confusion about `int` and `long`. You could read the source code and change the testcase anw...
+3. My utility function to get the ordinal number of a fibonacci number is named `getNthFibonacci()`, you should reformat this function (in such file `UtilityTets.java`) to your corresponding function.
  
 If done, run `source/MainTest.java` and see the result.
 
