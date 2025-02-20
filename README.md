@@ -16,5 +16,7 @@ If you are using Intellij, you can add the given Abstract, Interface class as de
 1. Copy your `util/Utility.jav` into `util` folder
 2. Note that there's maybe some confusion about `int` and `long`. You could read the source code and change the testcase anw...
  
-If done, run `source/MainTest.java`
+If done, run `source/MainTest.java` and see the result.
+
+You could make a PR to contribute to repository.
 
