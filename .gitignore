@@ -1,4 +1,3 @@
 # Project exclude paths
-/out/
-"/Initial Code/source/"
-"/Initial Code/util/Utility"
+"/source/"
+"/util/Utility.java"
