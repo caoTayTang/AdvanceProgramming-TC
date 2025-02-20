@@ -1,23 +1,65 @@
-# Advance Programming Test case
-## Setup environment 
-If you are using Intellij, you can add the given Abstract, Interface class as dependency as follow:
-1. Open **IntelliJ IDEA**
-2. Go to **File -> Project Structure**
-3. Select **Modules** on the left
-4. Click on **Dependencies** tab
-5. Click + (Add) -> **Jars or directories**
-6. Select the folder `source/class` that containing the bytecode
-7. Choose **Classes** when prompted
-8. Click **OK**
-## Migrate your source code
-### Copy `source/`
-1. Copy your `source/` into root folder
-### Copy `util/Utility.java`
-1. Copy your `util/Utility.jav` into `util` folder
-2. Note that there's maybe some confusion about `int` and `long`. You could read the source code and change the testcase anw...
-3. My utility function to get the ordinal number of a fibonacci number is named `getNthFibonacci()`, you should reformat this function (in such file `UtilityTets.java`) to your corresponding function.
- 
-If done, run `source/MainTest.java` and see the result.
+# **Advanced Programming Test Cases**
 
-You could make a PR to contribute to repository.
+## **Setup Environment**
+If you are using **IntelliJ IDEA**, you can add the provided **Abstract** and **Interface** classes as dependencies by following these steps:
 
+1. Open **IntelliJ IDEA**.
+2. Go to **File → Project Structure**.
+3. Select **Modules** from the left panel.
+4. Click on the **Dependencies** tab.
+5. Click **+ (Add) → Jars or directories**.
+6. Select the folder **`source/class`** that contains the bytecode.
+7. When prompted, choose **Classes**.
+8. Click **OK** to save the changes.
+
+---
+
+## **Migrate Your Source Code**
+
+### **1. Copy `source/` Directory**
+- Copy the **`source/`** directory into your **project’s root folder**.
+
+### **2. Copy `util/Utility.java`**
+- Copy **`util/Utility.java`** into the `util` folder.
+- Note that there may be some **inconsistencies** between `int` and `long` in the code. You may need to **adjust test cases accordingly**.
+- If your utility function for getting the **Nth Fibonacci number** is named differently, modify your test case (`UtilityTest.java`) to match your function’s name.
+    - Example: The function **`getNthFibonacci()`** should be reformatted to your corresponding function.
+
+---
+
+## **Expected Directory Structure**
+Once you’ve set up the files correctly, your project should have the following structure:
+
+```
++---class
+|       Battle.class
+|       Combatable.class
+|       Fighter.class
+|       Human.class
+|       Main.class
+|       Monster.class
+|
++---source
+|       DeathEater.java
+|       Knight.java
+|       Paladin.java
+|       Warrior.java
+|
++---test
+|       (Test files)
+|
+\---util
+        Complex.java
+        TeamMaker.java
+        Utility.java
+```
+
+---
+
+## **Run Tests**
+Once the setup is complete, run **`source/MainTest.java`** and check the results.
+
+---
+
+## **Contributing**
+If you’d like to contribute, feel free to **make a pull request (PR)** to the repository.  
