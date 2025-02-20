@@ -10,6 +10,11 @@ If you are using Intellij, you can add the given Abstract, Interface class as de
 7. Choose **Classes** when prompted
 8. Click **OK**
 ## Migrate your source code
+### Copy `source/`
 1. Copy your `source/` into `Initial Code` folder
-2. Run `source/MainTest.java`
+### Copy `util/Utility.java`
+1. Copy your `util/Utility.jav` into `util` folder
+2. Note that there's maybe some confusion about `int` and `long`. You could read the source code and change the testcase anw...
+ 
+If done, run `source/MainTest.java`
 
